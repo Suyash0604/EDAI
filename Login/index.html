@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> 
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="https://learner.vierp.in/assets/landing.a9a59abe.webp" alt="Background Image">
+        </div>
+        <div class="right">
+            <img src="https://vierp-test.s3.ap-south-1.amazonaws.com/logo/vit_logo_new.png" alt="Logo" class="logo">
+            <h2>Sign-In</h2>
+            <form>
+                <div class="input-container">
+                    <i class='bx bxs-user-pin'></i> 
+                    <input type="email" placeholder="Email" required autocomplete="username">
+                </div>
+                <div class="input-container">
+                    <i class='bx bxs-lock-alt'></i> <!-- New Boxicon -->
+                    <input type="password" placeholder="Password" required autocomplete="current-password">
+                </div>
+                <button type="submit">SIGN IN</button>
+            </form>
+            <div class="footer-links">
+                <a href="../ForgotPass/forgot-password.html">Forgot Password?</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="store-links">
+                <a href="https://play.google.com/store/apps/details?id=com.edupluscampus.erp_student&hl=en_IN&pli=1"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play" class="store-icon"></a>
+                <a href="https://apps.apple.com/in/app/myvi/id6447692110"><img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="App Store" class="store-icon"></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Powered By <a href="#">eduplus</a></p>
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+    </footer>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>
